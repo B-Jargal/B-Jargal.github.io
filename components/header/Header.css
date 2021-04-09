@@ -1,0 +1,22 @@
+.head{
+    height: 50vh;
+    width: 100%;
+    background-color:skyblue;
+    background: url('/components/header/2.jpg');
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2vh;
+}
+.pro{
+    height: 20vh;
+    border-radius: 50%;
+    border: 0px solid;
+}
+.pro:hover{
+    height: 25vh;
+    transition: 0.5s ease-in-out;
+}
