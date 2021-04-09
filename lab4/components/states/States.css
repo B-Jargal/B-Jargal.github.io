@@ -1,0 +1,17 @@
+/*
+CSS for the CS142 project #4 Problem #2 states component
+
+Since CSS uses a global name space for classes we should use names starting with
+cs142-states- here.
+*/
+input{
+    width: 15vw;
+    margin-left:43vw;
+    height: 25px;
+}
+ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    height: 20vh;
+}
